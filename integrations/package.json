@@ -5,7 +5,8 @@
   "scripts": {
     "test": "vitest",
     "start": "node dist/bin.js",
-    "dev": "tsc -b && node dist/bin.js"
+    "dev": "tsc -b && node dist/bin.js",
+    "test:integration": "./scripts/run-integration.sh"
   },
   "keywords": [],
   "author": "",
