@@ -52,7 +52,6 @@ app.post("/register", async (req, res): Promise<any> => {
         const user = await prisma.user.create({
             data: {
                 username: parsedInput.data.username,
-                email: parsedInput.data.email,
                 password: hashed
             }
         })
